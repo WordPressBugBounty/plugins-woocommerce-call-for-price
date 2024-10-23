@@ -3,13 +3,17 @@
  * Plugin Name: Call for Price for WooCommerce
  * Plugin URI: https://www.tychesoftwares.com/store/premium-plugins/woocommerce-call-for-price-plugin/
  * Description: Plugin extends WooCommerce by outputting "Call for Price" when price field for product is left empty.
- * Version: 3.7.0
+ * Version: 3.8.0
  * Author: Tyche Softwares
  * Author URI: https://www.tychesoftwares.com/
  * Text Domain: woocommerce-call-for-price
  * Domain Path: /langs
  * Copyright: � 2021 Tyche Softwares
- * WC tested up to: 8.7
+ * Requires PHP: 7.4
+ * WC tested up to: 9.3.3
+ * Tested up to: 6.6.2
+ * WC requires at least: 5.0.0
+ * Requires Plugins: woocommerce
  * License: GNU General Public License v3.0
  * License URI: http://www.gnu.org/licenses/gpl-3.0.html
  *
@@ -58,7 +62,7 @@ if ( ! class_exists( 'Alg_Woocommerce_Call_For_Price' ) ) :
 		 * @var   string
 		 * @since 3.0.0
 		 */
-		public $version = '3.7.0';
+		public $version = '3.8.0';
 
 		/**
 		 * Setting.
@@ -151,29 +155,34 @@ if ( ! class_exists( 'Alg_Woocommerce_Call_For_Price' ) ) :
 			}
 			require_once 'includes/class-wc-call-for-price.php';
 			$cfp_plugin_url = plugins_url() . '/woocommerce-call-for-price';
+
 			// plugin deactivation.
-			require_once 'includes/component/plugin-deactivation/class-tyche-plugin-deactivation.php';
-			new Tyche_Plugin_Deactivation(
-				array(
-					'plugin_name'       => 'Call for Price for WooCommerce',
-					'plugin_base'       => 'woocommerce-call-for-price/woocommerce-call-for-price.php',
-					'script_file'       => $cfp_plugin_url . '/includes/js/plugin-deactivation.js',
-					'plugin_short_name' => 'cfp_lite',
-					'version'           => $this->version,
-					'plugin_locale'     => 'woocommerce-call-for-price',
-				)
-			);
-			require_once 'includes/class-cfp-lite-data-tracking.php';
-			require_once 'includes/component/plugin-tracking/class-tyche-plugin-tracking.php';
-			new Tyche_Plugin_Tracking(
-				array(
-					'plugin_name'       => 'Call for Price for WooCommerce',
-					'plugin_locale'     => 'woocommerce-call-for-price',
-					'plugin_short_name' => 'cfp_lite',
-					'version'           => $this->version,
-					'blog_link'         => 'https://www.tychesoftwares.com/docs/woocommerce-call-for-price/call-for-price-usage-tracking/',
-				)
-			);
+			if ( is_admin() ) {
+				if ( strpos( $_SERVER['REQUEST_URI'], 'plugins.php' ) !== false || strpos( $_SERVER['REQUEST_URI'], 'action=deactivate' ) !== false || ( strpos( $_SERVER['REQUEST_URI'], 'admin-ajax.php' ) !== false && isset( $_POST['action'] ) && $_POST['action'] === 'tyche_plugin_deactivation_submit_action' ) ) { //phpcs:ignore
+					require_once 'includes/component/plugin-deactivation/class-tyche-plugin-deactivation.php';
+					new Tyche_Plugin_Deactivation(
+						array(
+							'plugin_name'       => 'Call for Price for WooCommerce',
+							'plugin_base'       => 'woocommerce-call-for-price/woocommerce-call-for-price.php',
+							'script_file'       => $cfp_plugin_url . '/includes/js/plugin-deactivation.js',
+							'plugin_short_name' => 'cfp_lite',
+							'version'           => $this->version,
+							'plugin_locale'     => 'woocommerce-call-for-price',
+						)
+					);
+				}
+				require_once 'includes/class-cfp-lite-data-tracking.php';
+				require_once 'includes/component/plugin-tracking/class-tyche-plugin-tracking.php';
+				new Tyche_Plugin_Tracking(
+					array(
+						'plugin_name'       => 'Call for Price for WooCommerce',
+						'plugin_locale'     => 'woocommerce-call-for-price',
+						'plugin_short_name' => 'cfp_lite',
+						'version'           => $this->version,
+						'blog_link'         => 'https://www.tychesoftwares.com/docs/woocommerce-call-for-price/call-for-price-usage-tracking/',
+					)
+				);
+			}
 		}
 
 		/**
