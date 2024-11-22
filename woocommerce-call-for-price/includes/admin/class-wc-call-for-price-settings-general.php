@@ -43,11 +43,18 @@ if ( ! class_exists( 'Alg_WC_Call_For_Price_Settings_General' ) ) :
 		 */
 		public function __construct() {
 
-			$this->id   = '';
-			$this->desc = __( 'General', 'woocommerce-call-for-price' );
+			$this->id = '';
+			add_action( 'init', array( &$this, 'add_cfp_desc_general' ) );
 
 			add_filter( 'woocommerce_get_sections_alg_call_for_price', array( $this, 'settings_section' ) );
 			add_filter( 'woocommerce_get_settings_alg_call_for_price_' . $this->id, array( $this, 'get_settings' ), PHP_INT_MAX );
+		}
+
+		/**
+		 * Add desc to setting page.
+		 */
+		public function add_cfp_desc_general() {
+			$this->desc = __( 'General', 'woocommerce-call-for-price' );
 		}
 
 		/**

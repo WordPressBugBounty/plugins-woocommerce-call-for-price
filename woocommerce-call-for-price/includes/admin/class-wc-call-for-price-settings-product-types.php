@@ -37,6 +37,14 @@ if ( ! class_exists( 'Alg_WC_Call_For_Price_Settings_Product_Types' ) ) :
 		 */
 		public function __construct() {
 			add_filter( 'woocommerce_get_sections_alg_call_for_price', array( $this, 'settings_section' ) );
+			add_action( 'init', array( &$this, 'add_cfp_desc_product_types' ) );
+			add_action( 'woocommerce_admin_field_alg_wc_call_for_price_textarea', array( $this, 'output_custom_textarea' ) );
+			add_filter( 'woocommerce_admin_settings_sanitize_option', array( $this, 'unclean_custom_textarea' ), PHP_INT_MAX, 3 );
+		}
+		/**
+		 * Add desc to setting page.
+		 */
+		public function add_cfp_desc_product_types() {
 			$this->product_types = array(
 				'simple'   => __( 'Simple Products', 'woocommerce-call-for-price' ),
 				'variable' => __( 'Variable Products', 'woocommerce-call-for-price' ),
@@ -46,8 +54,6 @@ if ( ! class_exists( 'Alg_WC_Call_For_Price_Settings_Product_Types' ) ) :
 			foreach ( $this->product_types as $product_type_id => $product_type_desc ) {
 				add_filter( 'woocommerce_get_settings_alg_call_for_price_' . $product_type_id, array( $this, 'get_settings' ), PHP_INT_MAX );
 			}
-			add_action( 'woocommerce_admin_field_alg_wc_call_for_price_textarea', array( $this, 'output_custom_textarea' ) );
-			add_filter( 'woocommerce_admin_settings_sanitize_option', array( $this, 'unclean_custom_textarea' ), PHP_INT_MAX, 3 );
 		}
 
 		/**

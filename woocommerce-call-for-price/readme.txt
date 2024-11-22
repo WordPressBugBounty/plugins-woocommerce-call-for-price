@@ -2,8 +2,8 @@
 Contributors: tychesoftwares
 Tags: woocommerce, call for price, request a quote
 Requires at least: 4.4
-Tested up to: 6.6.2
-Stable tag: 3.8.0
+Tested up to: 6.7.1
+Stable tag: 3.9.0
 Requires PHP: 7.3
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -112,7 +112,15 @@ Yes, in "WooCommerce > Settings > Call for Price" you can set if you want text t
 
 1. Empty price replaced by "Call for Price".
 
+== External Services ==
+
+This plugin communicates with our tracking server to send usage data **only** if the user has explicitly opted in to usage tracking. For detailed information about what is tracked, please refer to our [usage tracking documentation](https://www.tychesoftwares.com/docs/woocommerce-call-for-price/call-for-price-usage-tracking/).
+
 == Changelog ==
+
+= 3.9.0 - 22/11/2024 =
+* Fix - Translation loading was triggered too early, causing errors when changing the site language in WordPress 6.7.
+* Tweak - Removed the call to our tracking server to fetch the deactivation reasons and added them in the plugin itself.
 
 = 3.8.0 - 22/10/2024 = 
 * Fix - Deactivation survey request was being sent even though 'Skip & deactivate' was selected while deactivating the plugin.
