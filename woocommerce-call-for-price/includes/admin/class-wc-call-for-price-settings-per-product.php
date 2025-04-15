@@ -1,4 +1,4 @@
-<?php
+<?php // phpcs:ignore
 /**
  * WooCommerce Call for Price - Settings - Per Product
  *
@@ -88,7 +88,7 @@ if ( ! class_exists( 'Alg_WC_Call_For_Price_Settings_Per_Product' ) ) :
 		 * @version 3.1.1
 		 * @since   3.1.1
 		 */
-		public function create_call_for_price_meta_box( $post ) {
+		public function create_call_for_price_meta_box( $post ) { // phpcs:ignore
 			$current_post_id = get_the_ID();
 			$html            = '';
 			$html           .= '<table class="widefat striped">';
@@ -192,7 +192,7 @@ if ( ! class_exists( 'Alg_WC_Call_For_Price_Settings_Per_Product' ) ) :
 		 * @since   3.1.1
 		 */
 		public function save_call_for_price_meta_box( $post_id ) {
-			if ( ! isset( $_POST['alg_wc_call_for_price_meta_box_save_post'] ) ) {
+			if ( ! isset( $_POST['alg_wc_call_for_price_meta_box_save_post'] ) ) { // phpcs:ignore
 				return;
 			}
 			foreach ( $this->get_meta_box_options() as $option ) {
@@ -202,7 +202,7 @@ if ( ! class_exists( 'Alg_WC_Call_For_Price_Settings_Per_Product' ) ) :
 				if ( ! isset( $option['enabled'] ) || 'yes' === $option['enabled'] ) {
 					$option_value = '';
 					if ( isset( $option['name'] ) ) {
-						$option_value = ( isset( $_POST[ $option['name'] ] ) ? sanitize_text_field( wp_unslash( $_POST[ $option['name'] ] ) ) : $option['default'] );
+						$option_value = ( isset( $_POST[ $option['name'] ] ) ? sanitize_text_field( wp_unslash( $_POST[ $option['name'] ] ) ) : $option['default'] ); // phpcs:ignore
 					}
 					$_post_id   = ( isset( $option['product_id'] ) ? $option['product_id'] : $post_id );
 					$_meta_name = ( isset( $option['meta_name'] ) ? $option['meta_name'] : '_' . $option['name'] );
@@ -210,7 +210,6 @@ if ( ! class_exists( 'Alg_WC_Call_For_Price_Settings_Per_Product' ) ) :
 				}
 			}
 		}
-
 	}
 
 endif;

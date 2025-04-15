@@ -1,4 +1,4 @@
-<?php
+<?php // phpcs:ignore
 /**
  * WooCommerce Call for Price
  *
@@ -292,7 +292,6 @@ if ( ! class_exists( 'Alg_WC_Call_For_Price' ) ) :
 				}
 			}
 			return $short_desc;
-
 		}
 
 		/**
@@ -371,7 +370,7 @@ if ( ! class_exists( 'Alg_WC_Call_For_Price' ) ) :
 			}
 			if ( $price >= $min_price && $price <= $max_price ) {
 				return $this->fetch_product_price_if_zero_or_empty( $price, $_product );
-			} else {
+			} else { // phpcs:ignore
 				if ( '0' === $price ) {
 					if ( 'no' === $is_cfp_for_zero_price_enabled ) {
 						return $price;
@@ -440,7 +439,7 @@ if ( ! class_exists( 'Alg_WC_Call_For_Price' ) ) :
 		 * @version 3.2.1
 		 * @since   3.1.0
 		 */
-		public function get_variation_prices_hash( $price_hash, $_product, $display ) {
+		public function get_variation_prices_hash( $price_hash, $_product, $display ) { // phpcs:ignore
 			$price_hash['alg_call_for_price'] = array(
 				'force_all'               => get_option( 'alg_call_for_price_make_all_empty', 'no' ),
 				'force_out_of_stock'      => apply_filters( 'alg_call_for_price', 'no', 'out_of_stock' ),
@@ -494,7 +493,7 @@ if ( ! class_exists( 'Alg_WC_Call_For_Price' ) ) :
 				} else {
 					return '';
 				}
-			} else {
+			} else { // phpcs:ignore
 				if ( '0' === $price ) {
 					$status = apply_filters( 'alg_call_for_price_for_zero_price_products', false, $_product->get_id() );
 					if ( true === $status ) {

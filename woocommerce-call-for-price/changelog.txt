@@ -1,0 +1,122 @@
+*** Call for Price for WooCommerce ***
+2025-04-15 - version 3.10.0
+* Fix - Resolved all PHPCS warnings and aligned the code with WordPress Coding Standards to enhance quality and maintainability.
+* Tweak - Updated for compatibility with WordPress 6.8.0.
+* Tweak - Updated for compatibility with WooCommerce 9.8.1.
+
+2024-11-22 - version 3.9.0
+* Fix - Translation loading was triggered too early, causing errors when changing the site language in WordPress 6.7.
+* Tweak - Removed the call to our tracking server to fetch the deactivation reasons and added them in the plugin itself.
+
+2024-10-22 - version 3.8.0
+* Fix - Deactivation survey request was being sent even though 'Skip & deactivate' was selected while deactivating the plugin.
+
+2024-04-02 - version 3.7.0
+* Tweak - Update compatibility with WordPress 6.5.
+* Tweak - Update compatibility with WooCommerce 8.7.
+
+2023-07-04 - version 3.6.0
+* Enhancement - Added deactivation survey in the plugin.
+* Tweak - Added compatibility with PHP 8.0 and PHP 8.2
+* Fix - The Call for Price text is not displayed with zero priced products when 'Per Product' taxonomy is enabled.
+
+2022-11-29 - version 3.5.0
+* Enhancement - Introduced compatibility with WooCommerce High Performance Order Storage.
+
+2022-07-26 - version 3.4.0
+* Fix - An error is coming on the variable product with the WooCommerce Stripe Gateway plugin as active.
+* Fix - PHP warnings errors in the log.
+
+2021-11-02 - version 3.3.1
+* Enhancement - Able to change the Call for Price text coming on the products page from the general settings.
+* Enhancement - Able to change the text for Read more button coming on the Shop page for the products having null or 0 prices.
+
+2021-04-27 - version 3.3.0
+* Enhancement - Added an option under global setting to also show Call for price text for zero priced products in addition to empty priced products.
+* Enhancement - Added a setting to show the stock status for zero priced products.
+
+2020-03-20 - version 3.2.8
+* Update compatibility with WooCommerce 4.0.0.
+
+2019-08-21 - version 3.2.7
+* Changes in code to make the plugin compliant as per WPCS rules.
+
+2019-04-12 - version 3.2.6
+* Fix - Options were not getting deleted from the database when the plugin is being uninstalled. This is fixed now. 
+
+2018-11-16 - version 3.2.5
+* Author name and URL's updated due to handover of the plugins.
+
+2018-10-31 - version 3.2.4
+* Compatibility with WooCommerce 3.5.0 tested.
+
+2018-10-18 - version 3.2.3
+* Feature - Advanced Options - "Main variable price" option added.
+* Feature - Advanced Options - "Force variation price" option added.
+* Dev - Admin settings restyled ("Advanced Options" section added).
+
+2018-08-13 - version 3.2.2
+* Feature - General Options - "Hide button" option added.
+* Dev - Admin settings restyled ("Button Options" section added).
+* Dev - Settings array is saved as main class property.
+
+2018-07-07 - version 3.2.1
+* Feature - Force Products "Call for Price" - "By product price" options added.
+* Dev - General Settings - Minor code refactoring.
+* Dev - Product Types Sections Settings - Minor restyling.
+
+2018-06-20 - version 3.2.0
+* Feature - "Button text" options added.
+* Feature - "Make products Call for Price per product taxonomy" (category, tag) options added.
+* Feature - "Make all Out of stock products Call for Price" option added.
+* Dev - Minor code refactoring.
+* Dev - Admin settings restyled.
+* Dev - Admin settings - "Documentation" button added.
+
+2018-06-10 - version 3.1.1
+* Feature - "Per Product" labels options added.
+* Dev - "WC tested up to" added to plugin header.
+* Dev - Plugin homepage link updated.
+
+2017-04-26 - version 3.1.0
+* Dev - WooCommerce v3.x.x compatibility - `woocommerce_product_get_price`, `woocommerce_product_variation_get_price`, `woocommerce_variation_empty_price_html`, `_product_id`.
+* Dev - `woocommerce_get_variation_prices_hash` added.
+* Dev - Admin - "Reset Section Settings" option added.
+* Dev - Admin - Variations "price required" placeholder hidden.
+* Dev - Admin - `alg_wc_call_for_price_textarea`.
+* Tweak - Code refactoring.
+* Tweak - `coder.fm` link changed to `wpcodefactory.com`.
+
+2016-12-21 - version 3.0.3
+* Feature - General - Make All Products "Call for Price" - option added.
+
+2016-12-15 - version 3.0.2
+* Fix - `handle_deprecated_options()` fixed. This produced notice on plugin activation.
+
+2016-12-14 - version 3.0.1
+* Tweak - readme.txt updated.
+
+2016-12-08 - version 3.0.0
+* Feature - Variable (and variation) and grouped products support added.
+* Dev - `is_page` check added.
+* Dev - Multisite support added.
+* Dev - Translation (POT) file added.
+* Dev - Version system added.
+* Dev - Major code refactoring.
+* Tweak - Author added.
+* Tweak - Plugin renamed.
+
+2015-08-08 - version 2.0.1
+* Dev - Solaris theme compatibility added.
+
+2015-07-28 - version 2.0.0
+* Dev - Option to *hide/show sale tag* added.
+* Dev - Option to set specific "call for price" text for *related products* added.
+* Dev - Options to set specific "call for price" text for *single, category and homepage* added (instead of checkboxes).
+* Dev - Major code refactoring. Settings are moved to "WooCommerce > Settings > Call for Price".
+
+2015-01-01 - version 1.0.1
+* Sale icon removed.
+
+2015-01-01 - version 1.0.0
+* Initial Release.

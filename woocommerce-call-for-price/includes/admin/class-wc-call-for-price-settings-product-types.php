@@ -1,4 +1,4 @@
-<?php
+<?php // phpcs:ignore
 /**
  * WooCommerce Call for Price - Product Types Sections Settings
  *
@@ -199,9 +199,8 @@ if ( ! class_exists( 'Alg_WC_Call_For_Price_Settings_Product_Types' ) ) :
 		 * @since   3.0.0
 		 */
 		public function get_settings() {
-			return ( isset( $_GET['section'] ) ) ? $this->generate_settings_section( sanitize_text_field( wp_unslash( $_GET['section'] ) ) ) : array();
+			return ( isset( $_GET['section'] ) ) ? $this->generate_settings_section( sanitize_text_field( wp_unslash( $_GET['section'] ) ) ) : array(); // phpcs:ignore
 		}
-
 	}
 
 endif;

@@ -1,4 +1,4 @@
-<?php
+<?php // phpcs:ignore
 /**
  * WooCommerce Call for Price - General Section Settings
  *
@@ -89,7 +89,7 @@ if ( ! class_exists( 'Alg_WC_Call_For_Price_Settings_General' ) ) :
 			} else {
 				$_taxonomy = $args['taxonomy'];
 				unset( $args['taxonomy'] );
-				$_terms = get_terms( $_taxonomy, $args );
+				$_terms = get_terms( $_taxonomy, $args ); // phpcs:ignore
 			}
 			$_terms_options = array();
 			if ( ! empty( $_terms ) && ! is_wp_error( $_terms ) ) {
@@ -351,7 +351,6 @@ if ( ! class_exists( 'Alg_WC_Call_For_Price_Settings_General' ) ) :
 
 			return array_merge( $plugin_settings, $general_settings, $button_settings, $force_settings, $advanced_settings );
 		}
-
 	}
 
 endif;

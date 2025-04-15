@@ -32,7 +32,6 @@ if ( ! class_exists( 'Cfp_Lite_Data_Tracking' ) ) :
 			// Send Tracker Data.
 			add_action( 'cfp_lite_init_tracker_completed', array( __CLASS__, 'init_tracker_completed' ), 10, 2 );
 			add_filter( 'cfp_lite_ts_tracker_display_notice', array( __CLASS__, 'cfp_lite_ts_tracker_display_notice' ), 10, 1 );
-
 		}
 
 		/**
@@ -267,7 +266,6 @@ if ( ! class_exists( 'Cfp_Lite_Data_Tracking' ) ) :
 
 			return $count;
 		}
-
 	}
 
 endif;

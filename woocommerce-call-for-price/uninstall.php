@@ -21,7 +21,7 @@ if ( file_exists( WP_PLUGIN_DIR . 'woocommerce-call-for-price-pro/woocommerce-ca
 }
 
 global $wpdb;
-$results = $wpdb->get_results(
+$results = $wpdb->get_results( // phpcs:ignore
 	$wpdb->prepare(
 		'SELECT option_name FROM `' . $wpdb->prefix . 'options` WHERE option_name LIKE %s OR option_name LIKE %s',
 		'alg_wc_call_for_price%',

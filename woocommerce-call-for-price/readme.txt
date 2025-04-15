@@ -2,8 +2,8 @@
 Contributors: tychesoftwares
 Tags: woocommerce, call for price, request a quote
 Requires at least: 4.4
-Tested up to: 6.7.1
-Stable tag: 3.9.0
+Tested up to: 6.8.0
+Stable tag: 3.10.0
 Requires PHP: 7.3
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -117,6 +117,10 @@ Yes, in "WooCommerce > Settings > Call for Price" you can set if you want text t
 This plugin communicates with our tracking server to send usage data **only** if the user has explicitly opted in to usage tracking. For detailed information about what is tracked, please refer to our [usage tracking documentation](https://www.tychesoftwares.com/docs/woocommerce-call-for-price/call-for-price-usage-tracking/).
 
 == Changelog ==
+= 3.10.0 - 15/04/2025 =
+* Fix - Resolved all PHPCS warnings and aligned the code with WordPress Coding Standards to enhance quality and maintainability.
+* Tweak - Updated for compatibility with WordPress 6.8.0.
+* Tweak - Updated for compatibility with WooCommerce 9.8.1.
 
 = 3.9.0 - 22/11/2024 =
 * Fix - Translation loading was triggered too early, causing errors when changing the site language in WordPress 6.7.

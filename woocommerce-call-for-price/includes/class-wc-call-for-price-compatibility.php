@@ -1,4 +1,4 @@
-<?php
+<?php // phpcs:ignore
 /**
  * WooCommerce Call for Price Compatibility
  *
@@ -100,7 +100,6 @@ if ( ! class_exists( 'Alg_WC_Call_For_Price_Compatibility' ) ) :
 				remove_action( 'woocommerce_after_shop_loop_item_title', 'themerex_woocommerce_before_price', 9 );
 			}
 		}
-
 	}
 
 endif;

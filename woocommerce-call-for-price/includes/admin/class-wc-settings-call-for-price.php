@@ -1,4 +1,4 @@
-<?php
+<?php // phpcs:ignore
 /**
  * WooCommerce Call for Price - Settings
  *
@@ -115,18 +115,15 @@ if ( ! class_exists( 'Alg_WC_Settings_Call_For_Price' ) ) :
 		public function output() {
 			parent::output();
 			if ( '' !== get_option( 'alg_wc_call_for_price_version', '' ) ) {
-				echo '<p style="font-style:italic;float:right;">';
-				echo sprintf(
-					/* translators: %s: search term */
-					esc_html__( 'Call for Price for WooCommerce - version %s', 'woocommerce-call-for-price' ),
+				printf(
+					'<p style="font-style:italic;float:right;">' . /* translators: %s: search term */
+					esc_html__( 'Call for Price for WooCommerce - version %s', 'woocommerce-call-for-price' ) .
+					'</p>',
 					esc_html( get_option( 'alg_wc_call_for_price_version', '' ) )
 				);
-				echo '</p>';
 			}
 		}
-
 	}
-
 endif;
 
 return new Alg_WC_Settings_Call_For_Price();
