@@ -62,7 +62,8 @@ if ( ! class_exists( 'Alg_WC_Call_For_Price' ) ) :
 					$this->hook_price_filters( 'make_empty_price' );
 				}
 				// Out of stock products.
-				if ( 'yes' === apply_filters( 'alg_call_for_price', 'no', 'out_of_stock' ) ) {
+
+				if ( 'yes' === get_option( 'alg_call_for_price_make_out_of_stock_empty_price', 'no' ) ) {
 					$this->hook_price_filters( 'make_empty_price_out_of_stock' );
 				}
 				// "Call for Price" per product taxonomy.
@@ -278,7 +279,10 @@ if ( ! class_exists( 'Alg_WC_Call_For_Price' ) ) :
 			if ( is_product() ) {
 
 				global $post;
-				$product       = wc_get_product( $post->ID );
+				$product = wc_get_product( $post->ID );
+				if ( ! $product ) {
+					return $short_desc;
+				}
 				$product_id    = $product->get_id();
 				$product_price = $product->get_price();
 				$product_type  = $product->get_type();
@@ -423,7 +427,7 @@ if ( ! class_exists( 'Alg_WC_Call_For_Price' ) ) :
 		 * @since   3.2.0
 		 */
 		public function make_empty_price_out_of_stock( $price, $_product ) {
-			if ( ! $_product->is_in_stock() ) {
+			if ( ! $_product->is_in_stock() || $_product->is_on_backorder( 1 ) ) {
 				return $this->fetch_product_price_if_zero_or_empty( $price, $_product );
 			} else {
 				return $price;

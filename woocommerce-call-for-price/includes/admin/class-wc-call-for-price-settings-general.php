@@ -234,20 +234,10 @@ if ( ! class_exists( 'Alg_WC_Call_For_Price_Settings_General' ) ) :
 				array(
 					'title'             => __( '"Out of stock" products', 'woocommerce-call-for-price' ),
 					'desc'              => __( 'Enable', 'woocommerce-call-for-price' ),
-					'desc_tip'          => __( 'Makes "Call for Price" for all products that can not be purchased (not "in stock" or "on backorder" stock statuses).', 'woocommerce-call-for-price' ) .
-					apply_filters(
-						'alg_call_for_price',
-						'<br>' . sprintf( /* translators: %s: Link to pro version */
-							__( 'You will need %s plugin to enable this option.', 'woocommerce-call-for-price' ),
-							'<a target="_blank" href="https://www.tychesoftwares.com/store/premium-plugins/woocommerce-call-for-price-plugin/?utm_source=cfpupgradetopro&utm_medium=link&utm_campaign=CallForPriceLite">' .
-							__( 'Call for Price for WooCommerce Pro', 'woocommerce-call-for-price' ) . '</a>'
-						),
-						'settings'
-					),
+					'desc_tip'          => __( 'Makes "Call for Price" for all products that can not be purchased ( "Out of stock" and "on backorder" stock statuses ).', 'woocommerce-call-for-price' ),
 					'id'                => 'alg_call_for_price_make_out_of_stock_empty_price',
 					'default'           => 'no',
 					'type'              => 'checkbox',
-					'custom_attributes' => apply_filters( 'alg_call_for_price', array( 'disabled' => 'disabled' ), 'settings' ),
 				),
 				array(
 					'title'    => __( 'Per product taxonomy', 'woocommerce-call-for-price' ),

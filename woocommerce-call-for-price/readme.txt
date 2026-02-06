@@ -2,8 +2,8 @@
 Contributors: tychesoftwares
 Tags: woocommerce, call for price, request a quote
 Requires at least: 4.4
-Tested up to: 6.8.2
-Stable tag: 4.0.0
+Tested up to: 6.9.0
+Stable tag: 4.2.0
 Requires PHP: 7.3
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -36,7 +36,7 @@ Supported views:
 You can also optionally force "Call for Price" for:
 
 * All your shop's products
-* "Out of stock" products (Pro version only)
+* "Out of stock" products
 * Per product taxonomy (categories and/or tags)
 * By product's price
 
@@ -117,6 +117,14 @@ Yes, in "WooCommerce > Settings > Call for Price" you can set if you want text t
 This plugin communicates with our tracking server to send usage data **only** if the user has explicitly opted in to usage tracking. For detailed information about what is tracked, please refer to our [usage tracking documentation](https://www.tychesoftwares.com/docs/woocommerce-call-for-price/call-for-price-usage-tracking/).
 
 == Changelog ==
+= 4.2.0 - 03/02/2026 =
+* Enhancement – Added an option to display the “Call for Price” text for out-of-stock and backorder products.
+
+= 4.1.0 - 07/01/2026 =
+* Fix - Fatal error that occurred on the product page when the Call for Price plugin was used with the Divi 5 theme and the product was created using the Divi Builder.
+* Tweak - Updated for compatibility with WordPress 6.9.0.
+* Tweak - Updated for compatibility with WooCommerce 10.4.3.
+
 = 4.0.0 - 05/08/2025 =
 * Tweak - Updated for compatibility with WordPress 6.8.2.
 * Tweak - Updated for compatibility with WooCommerce 10.0.4.
