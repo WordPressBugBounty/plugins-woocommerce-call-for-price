@@ -2,9 +2,9 @@
 Contributors: tychesoftwares
 Tags: woocommerce, call for price, request a quote
 Requires at least: 4.4
-Tested up to: 6.9.0
-Stable tag: 4.2.0
-Requires PHP: 7.3
+Tested up to: 6.9.4
+Stable tag: 4.3.0
+Requires PHP: 7.4
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -16,31 +16,136 @@ Allow customers to "Request a quote" or "Call for price" for WooCommerce product
 >
 > The only BOGO plugin with a revenue tracking feature. **Now, at an attractive introductory price**. [Check out our new plugin here](https://www.tychesoftwares.com/products/woocommerce-flexi-bogo-plugin/?utm_source=wprepo&utm_medium=pluginpagetop&utm_campaign=CallForPrice).
 
-**[Call for Price for WooCommerce](https://www.tychesoftwares.com/store/premium-plugins/woocommerce-call-for-price-plugin/?utm_source=wprepo&utm_medium=topprolink&utm_campaign=CallForPrice)** plugin extends WooCommerce by outputting "Call for Price" when price field for product is left empty. You can additionally change the default add to cart button text or hide button completely for products with empty price.
+**Call for Price for WooCommerce** lets you hide product prices and display a custom **“Call for Price”** label instead. This helps you decide when prices should be visible and when customers should contact you before purchasing.
 
-Supports all product types:
+It’s useful for stores that sell custom products, wholesale items, negotiable-price goods, or products whose prices depend on availability or requirements.
 
-* Simple and Custom products
-* Variable (and variation) products
-* Grouped products
-* External products
+---
 
-Supported views:
+### Key Features
 
-* Single product page
-* Related products
-* Homepage
-* Pages (e.g. shortcodes)
-* Archives (products category)
+With this plugin, you can:
 
-You can also optionally force "Call for Price" for:
+- Automatically show **“Call for Price”** when a product price is left empty  
+- Replace or hide the **Add to Cart / Read more** button  
+- Display stock status even when prices are hidden  
+- Apply Call for Price rules without editing your theme or code  
 
-* All your shop's products
-* "Out of stock" products
-* Per product taxonomy (categories and/or tags)
-* By product's price
+This makes it easy to manage inquiry-based products without disrupting your existing WooCommerce setup.
 
-**[Call for Price for WooCommerce Pro version](https://www.tychesoftwares.com/store/premium-plugins/woocommerce-call-for-price-plugin/?utm_source=wprepo&utm_medium=prolink&utm_campaign=CallForPrice)** also allows you to set "call for price" labels on per product basis.
+---
+
+### Supported product types
+
+Call for Price for WooCommerce works with all standard WooCommerce product types:
+
+- Simple products  
+- Variable products and individual variations  
+- Grouped products  
+- External (affiliate) products  
+
+---
+
+### Where “Call for Price” is displayed
+
+You can control where the Call for Price label appears across your store, including:
+
+- Single product pages  
+- Related products  
+- Shop and category pages  
+- Homepage  
+- Pages created using shortcodes  
+
+---
+
+### Flexible rules to apply “Call for Price”
+
+By default, the plugin shows Call for Price only for products without a price.
+
+You can also force it to appear using the following rules:
+
+#### Apply to all products
+
+Show “Call for Price” for every product in your store, regardless of price or stock status. This is ideal for wholesale, B2B, or inquiry-only stores.
+
+#### Apply only to unavailable products
+
+Automatically display “Call for Price” for products that cannot be purchased, such as:
+
+- Out-of-stock products  
+- Products on backorder  
+
+In-stock products continue to work normally.
+
+#### Apply based on product rules
+
+You can also apply Call for Price selectively:
+
+- By product categories or tags  
+- By product price range  
+
+---
+
+### Button and display options
+
+The plugin gives you control over how Call for Price appears on the frontend:
+
+- Change the default button text  
+- Hide the Add to Cart or Read More button  
+- Hide sale badges for Call for Price products  
+- Hide disabled Add to Cart buttons for variations  
+
+These options help keep your frontend clean and consistent.
+
+---
+
+### When you might need the Pro version
+
+The Pro version includes all Lite features and adds the following capabilities:
+
+- Configure Call for Price individually for each product using a dedicated meta box  
+- Enable Call for Price for products with non-zero prices  
+- Apply Call for Price settings based on specific user roles  
+- Set custom Call for Price text for individual product variations  
+- Integrate with popular contact form plugins  
+
+You can also control where the Call for Price text is displayed, including:
+
+- Related Products section  
+- Products displayed via shortcodes  
+- Homepage  
+- Shop and archive pages  
+
+Additionally, you can define how customers contact you when “Call for Price” is shown:
+
+- Phone call link  
+- WhatsApp link  
+- Email link  
+- Custom URL  
+
+The Pro version is best suited for larger stores or stores with complex pricing rules.
+
+👉 **Learn more about [Call for Price for WooCommerce Pro](https://www.tychesoftwares.com/products/woocommerce-call-for-price-plugin/)**
+
+---
+
+### Need help?
+
+If you have questions or need assistance:
+
+- Visit the **[support forum](https://wordpress.org/support/plugin/woocommerce-call-for-price/)**
+- **[View documentation](https://www.tychesoftwares.com/docs/woocommerce-call-for-price/)**
+
+---
+
+### Feedback
+
+We are open to your suggestions and feedback. Thank you for using or trying out one of our plugins!
+
+If you find the plugin useful, a ⭐⭐⭐⭐⭐ rating is always appreciated — it helps other store owners discover the plugin.
+
+
+### Related Plugins
 
 **Some of our Pro plugins:**
 
@@ -90,11 +195,30 @@ You can also optionally force "Call for Price" for:
 
 9. **[Currency per Product for WooCommerce](https://wordpress.org/plugins/currency-per-product-for-woocommerce/ "Currency per Product for WooCommerce")**
 
-= Feedback =
-* We are open to your suggestions and feedback. Thank you for using or trying out one of our plugins!
 
-= More =
-* Visit the [Call for Price for WooCommerce plugin page](https://www.tychesoftwares.com/store/premium-plugins/woocommerce-call-for-price-plugin/?utm_source=wprepo&utm_medium=prolink2&utm_campaign=CallForPrice).
+== External Services ==
+
+This plugin communicates with our tracking server to send usage data only if the user has explicitly opted in to usage tracking. For detailed information about what is tracked, please refer to our [usage tracking documentation.](https://www.tychesoftwares.com/docs/woocommerce-print-invoice-delivery-note/print-invoice-usage-trackings/)
+
+== Screenshots ==
+
+1. Meta box added to each product's backend.
+2. Exclude products or categories from Call for Price.
+3. Integration with form plugins such as Contact Form 7 and Gravity Forms.
+4. Show stock status for empty priced products.
+5. Stock status display with Call for Price.
+6. Call for Price forms display.
+7. User role–based Call for Price rules.
+8. Apply Call for Price by price range (method 2).
+9. Apply Call for Price by price range.
+10. Call for Price on external products.
+11. Call for Price on grouped products.
+12. Call for Price on variable products.
+13. Call for Price on simple product.
+14. Using WhatsApp as Call for Price contact option.
+15. Call type feature settings.
+16. Call for Price label display.
+17. Call for Price by product categories. 
 
 == Installation ==
 
@@ -108,15 +232,10 @@ You can also optionally force "Call for Price" for:
 
 Yes, in "WooCommerce > Settings > Call for Price" you can set if you want text to be shown on single product page, products archive page, related products and/or home page.
 
-== Screenshots ==
-
-1. Empty price replaced by "Call for Price".
-
-== External Services ==
-
-This plugin communicates with our tracking server to send usage data **only** if the user has explicitly opted in to usage tracking. For detailed information about what is tracked, please refer to our [usage tracking documentation](https://www.tychesoftwares.com/docs/woocommerce-call-for-price/call-for-price-usage-tracking/).
-
 == Changelog ==
+= 4.3.0 - 23/04/2026 =
+* Fix - Security vulnerability where unsanitized textarea input could lead to XSS on the frontend.
+
 = 4.2.0 - 03/02/2026 =
 * Enhancement – Added an option to display the “Call for Price” text for out-of-stock and backorder products.
 

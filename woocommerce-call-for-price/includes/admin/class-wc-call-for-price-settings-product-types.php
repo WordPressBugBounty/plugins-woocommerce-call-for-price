@@ -66,7 +66,10 @@ if ( ! class_exists( 'Alg_WC_Call_For_Price_Settings_Product_Types' ) ) :
 		 * @since   3.1.0
 		 */
 		public function unclean_custom_textarea( $value, $option, $raw_value ) {
-			return ( 'alg_wc_call_for_price_textarea' === $option['type'] ) ? $raw_value : $value;
+			if ( 'alg_wc_call_for_price_textarea' === $option['type'] ) {
+				return wp_kses_post( $raw_value );
+			}
+			return $value;
 		}
 
 		/**

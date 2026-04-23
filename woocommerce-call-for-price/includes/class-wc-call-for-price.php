@@ -235,7 +235,7 @@ if ( ! class_exists( 'Alg_WC_Call_For_Price' ) ) :
 					if ( true === $status ) {
 						return $price_html;
 					} else {
-						return do_shortcode( $label );
+						return wp_kses_post( do_shortcode( $label ) );
 					}
 				}
 			}
@@ -678,7 +678,7 @@ if ( ! class_exists( 'Alg_WC_Call_For_Price' ) ) :
 					array( 'product_id' => $_product_id )
 				);
 			}
-			return do_shortcode( $label );
+			return wp_kses_post( do_shortcode( $label ) );
 		}
 	}
 
