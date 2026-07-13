@@ -1,0 +1,1375 @@
+# Copyright (C) 2026 Tyche Softwares
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: Call for Price for WooCommerce 4.3.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce-call-for-price\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-07-10T04:14:30+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: woocommerce-call-for-price\n"
+
+#. Plugin Name of the plugin
+#: woocommerce-call-for-price.php
+msgid "Call for Price for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: woocommerce-call-for-price.php
+msgid "https://www.tychesoftwares.com/store/premium-plugins/woocommerce-call-for-price-plugin/"
+msgstr ""
+
+#. Description of the plugin
+#: woocommerce-call-for-price.php
+msgid "Plugin extends WooCommerce by outputting \"Call for Price\" when price field for product is left empty."
+msgstr ""
+
+#. Author of the plugin
+#: woocommerce-call-for-price.php
+msgid "Tyche Softwares"
+msgstr ""
+
+#. Author URI of the plugin
+#: woocommerce-call-for-price.php
+msgid "https://www.tychesoftwares.com/"
+msgstr ""
+
+#: includes/admin/class-admin-page.php:41
+#: includes/admin/class-product-metabox.php:47
+#: includes/core/class-hooks.php:504
+#: includes/core/class-hooks.php:554
+#: includes/core/class-hooks.php:572
+#: includes/core/class-hooks.php:718
+#: includes/core/class-hooks.php:794
+#: build/index.js:1
+#: build/product.js:1
+#: src/App.js:97
+#: src/ProductMetabox.js:40
+#: src/screens/PerProduct.js:52
+msgid "Call for Price"
+msgstr ""
+
+#: includes/admin/class-migration.php:199
+msgid "Hi, I'm interested in this product: {product_name} from {store_name}. Could you please share the price and more details?"
+msgstr ""
+
+#: includes/admin/class-migration.php:203
+#: build/product.js:1
+#: src/ProductMetabox.js:38
+msgid "Price inquiry for {product_name} on {store_name}"
+msgstr ""
+
+#: includes/admin/class-migration.php:207
+msgid ""
+"Hello,\n"
+"\n"
+"I'm interested in the following product listed on {store_name}:\n"
+" Product: {product_name}\n"
+" Link: {product_url}\n"
+"\n"
+"Could you please provide the price and any additional details?\n"
+"Thank you!"
+msgstr ""
+
+#: includes/api/class-api-base.php:44
+msgid "You do not have permission to manage Call for Price settings."
+msgstr ""
+
+#: includes/api/class-api-options.php:55
+msgid "Text"
+msgstr ""
+
+#: includes/api/class-api-options.php:56
+#: build/index.js:1
+#: build/product.js:1
+#: src/components/ProductTypeScreen.js:35
+#: src/ProductMetabox.js:80
+msgid "Phone call"
+msgstr ""
+
+#: includes/api/class-api-options.php:57
+#: build/index.js:1
+#: build/product.js:1
+#: src/components/ProductTypeScreen.js:36
+#: src/ProductMetabox.js:81
+msgid "WhatsApp"
+msgstr ""
+
+#: includes/api/class-api-options.php:58
+#: build/index.js:1
+#: build/product.js:1
+#: src/components/ProductTypeScreen.js:37
+#: src/ProductMetabox.js:82
+msgid "Email"
+msgstr ""
+
+#: includes/api/class-api-options.php:59
+#: build/index.js:1
+#: build/product.js:1
+#: src/components/ProductTypeScreen.js:38
+#: src/ProductMetabox.js:83
+msgid "Custom link"
+msgstr ""
+
+#: includes/api/class-api-options.php:144
+msgid "Guest"
+msgstr ""
+
+#: includes/api/class-api-options.php:163
+#: build/product.js:1
+#: src/ProductMetabox.js:87
+msgid "None"
+msgstr ""
+
+#: includes/api/class-api-options.php:176
+msgid "Other (Shortcode)"
+msgstr ""
+
+#: includes/class-call-for-price.php:74
+msgid "Cloning is not allowed."
+msgstr ""
+
+#: includes/class-call-for-price.php:87
+msgid "Unserializing is not allowed."
+msgstr ""
+
+#: includes/class-call-for-price.php:260
+msgid "Settings"
+msgstr ""
+
+#: includes/core/class-hooks.php:453
+msgid "Enable Call For Price"
+msgstr ""
+
+#: includes/core/class-hooks.php:460
+msgid "Call For Price Text"
+msgstr ""
+
+#: includes/core/class-hooks.php:463
+msgid "This will replace the variation price when call for price is enabled for this variation."
+msgstr ""
+
+#: includes/tyche/components/plugin-tracking/class-plugin-tracking.php:255
+msgid "Want to help make %1$s even more awesome? Allow %1$s to collect non-sensitive diagnostic data and usage information and get 20%% off on your next purchase. <a href=\"%2$s\">Find out more</a>."
+msgstr ""
+
+#: build/index.js:1
+#: src/context/SettingsContext.js:30
+msgid "Failed to load settings."
+msgstr ""
+
+#: build/index.js:1
+#: build/product.js:1
+#: src/context/SettingsContext.js:43
+#: src/ProductMetabox.js:214
+msgid "Settings saved."
+msgstr ""
+
+#: build/index.js:1
+#: build/product.js:1
+#: src/context/SettingsContext.js:46
+#: src/ProductMetabox.js:218
+msgid "Failed to save settings."
+msgstr ""
+
+#: build/index.js:1
+#: src/context/SettingsContext.js:61
+msgid "Section reset to defaults."
+msgstr ""
+
+#: build/index.js:1
+#: src/context/SettingsContext.js:64
+msgid "Failed to reset section."
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/Dashboard.js:165
+msgid "Enable the plugin"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/Dashboard.js:166
+msgid "Configure at least one product type"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/Dashboard.js:199
+msgid "Plugin Summary"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/Dashboard.js:204
+#: src/screens/General.js:120
+msgid "Plugin Status"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/Dashboard.js:205
+msgid "Enabled"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/Dashboard.js:205
+msgid "Disabled"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/Dashboard.js:212
+msgid "Active Product Types"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/Dashboard.js:244
+msgid "Quick Tip: "
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/Dashboard.js:245
+msgid "Visit the"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/Dashboard.js:246
+#: src/screens/PerProduct.js:49
+msgid "General tab"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/Dashboard.js:247
+msgid "to configure global plugin settings. Set per-product-type labels under"
+msgstr ""
+
+#: build/index.js:1
+#: src/App.js:85
+#: src/screens/Dashboard.js:248
+#: src/screens/Dashboard.js:265
+#: src/screens/ProductTypes.js:40
+msgid "Product Types"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/Dashboard.js:256
+msgid "Documentation"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/Dashboard.js:257
+msgid "Learn how to configure Call for Price settings for your store"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/Dashboard.js:266
+msgid "Configure Call for Price labels for Simple, Variable, Grouped and External products"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/Dashboard.js:273
+msgid "Get Support"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/Dashboard.js:274
+msgid "Need help? Contact our support team for assistance"
+msgstr ""
+
+#: build/index.js:1
+#: build/product.js:1
+#: src/components/SettingsCard.js:105
+#: src/ProductMetabox.js:463
+msgid "Saving…"
+msgstr ""
+
+#: build/index.js:1
+#: build/product.js:1
+#: src/components/SettingsCard.js:105
+#: src/ProductMetabox.js:464
+msgid "Save changes"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/SettingsCard.js:114
+msgid "Reset to defaults"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/MigrationNotice.js:179
+#: src/components/SettingsCard.js:146
+msgid "Dismiss"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/MultiSelect.js:92
+msgid "Select…"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/MultiSelect.js:98
+msgid "No results found"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/ProNotice.js:18
+msgid "is only available in the Pro version."
+msgstr ""
+
+#: build/index.js:1
+#: src/components/ProNotice.js:22
+#: src/components/ProNotice.js:56
+#: src/screens/ProductTypes.js:44
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/ProNotice.js:33
+msgid "%s is only available in the Pro version."
+msgstr ""
+
+#: build/index.js:1
+#: src/components/ProNotice.js:34
+msgid "This option is only available in the Pro version."
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:111
+msgid "Unable to load product categories, tags, and user roles. Please refresh the page or contact support."
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:123
+msgid "Enable Plugin"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:124
+msgid "Turn Call for Price Pro on or off for your entire store."
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:136
+msgid "Per-product overrides"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:137
+msgid "Allow Call for Price to be overridden on individual products."
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:153
+msgid "Limit Call for Price to user roles"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:154
+msgid "Only the selected roles will see Call for Price. Leave empty to show it to everyone, including guests."
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:163
+msgid "All users — leave empty for everyone…"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:172
+msgid "Display Options"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:175
+msgid "Hide the WooCommerce sale badge"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:176
+msgid "Hide the 'Sale' badge on products that show Call for Price."
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:188
+msgid "Variable product price range"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:189
+msgid "Choose how the price range is shown on variable products: Hide range / Show range / Hide range with CSS."
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:196
+msgid "Show range"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:197
+msgid "Hide range"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:198
+msgid "Hide range with CSS"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:207
+msgid "Force variation price"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:208
+msgid "Always show the variation price on the single product page."
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:220
+msgid "Hide 'Add to Cart' on variations"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:221
+msgid "Hide the disabled Add to Cart button on variations with no price."
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:233
+msgid "Show stock status for empty priced products"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:234
+msgid "Display the stock availability (e.g. In stock / Out of stock) in place of the price for products showing Call for Price."
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:247
+msgid "Shop & category page button"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:250
+msgid "Customise button text"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:251
+msgid "Replace the default 'Read more' button on shop/category pages with a custom label for Call for Price products."
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:264
+msgid "Button text"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:266
+msgid "Set the text for button on shop/category pages for Call for Price products."
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:273
+msgid "e.g. 'Request Price' or 'Enquire Now'"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:282
+msgid "Button link"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:284
+msgid "Where the button takes customers when clicked. Use a contact page, enquiry form, or external URL."
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:302
+msgid "Hide button"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:303
+msgid "Hides the Read More / Add to Cart button on shop and category listings for Call for Price products."
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:317
+msgid "Auto-apply Call for Price"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:318
+msgid "By default, the Call for Price label only appears on products with no price set. Use the options below to extend this behaviour and show the Call for Price label on additional products — even if they already have a price set."
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:322
+msgid "Apply to All Products"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:323
+msgid "Force every product in your store to display the Call for Price label, regardless of its price."
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:332
+msgid "Apply to out-of-stock products"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:333
+msgid "Show the Call for Price label on products that cannot be purchased due to Out of Stock or On Backorder status."
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:342
+msgid "Apply to products with a price of zero"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:343
+msgid "Show Call for Price on products whose regular price is 0."
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:352
+msgid "Enable custom Call for Price text for variations"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:353
+msgid "Show Call for Price on variations whose price is 0."
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:369
+msgid "Show on Products With a Price Set"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:370
+msgid "Display the Call for Price label even when a regular price exists on the product."
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:379
+msgid "Restrict by category or tag"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:380
+msgid "Only apply to products in the selected categories or tags below."
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:391
+msgid "Product categories"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:392
+msgid "Select categories to force Call for Price."
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:399
+msgid "Select categories…"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:408
+msgid "Product tags"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:409
+msgid "Select tags to force Call for Price."
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:416
+msgid "Select tags…"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:427
+msgid "Restrict by price range"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:428
+msgid "Only apply to products priced within the range below."
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:439
+msgid "Minimum price"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:441
+msgid "Lowest regular price to include (in your store's currency, before tax)."
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:458
+msgid "Maximum price"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:460
+msgid "Highest regular price to include (in your store's currency, before tax)."
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:481
+msgid "Exclusions"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:482
+msgid "Products and categories listed here will never show Call for Price, even if they match a rule above."
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:486
+msgid "Exclude products"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:487
+msgid "Products excluded from Call for Price even when force rules are active."
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:495
+msgid "Select products to exclude…"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:504
+msgid "Exclude categories"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:505
+msgid "Categories excluded from Call for Price even when force rules are active."
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:514
+msgid "Select categories to exclude…"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:524
+#: src/screens/General.js:535
+msgid "Reset Usage Tracking"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:525
+msgid "Clear all stored usage tracking data for this plugin."
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:527
+msgid "Reset Tracking Data"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:554
+msgid "Reset General settings to defaults? This cannot be undone."
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/General.js:563
+msgid "Are you sure you want to reset all usage tracking data?"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/ProductTypeScreen.js:25
+msgid "Single product page"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/ProductTypeScreen.js:26
+msgid "Related products"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/ProductTypeScreen.js:27
+msgid "Homepage"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/ProductTypeScreen.js:28
+msgid "Other pages (shortcodes)"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/ProductTypeScreen.js:29
+msgid "Shop & category archives"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/ProductTypeScreen.js:30
+msgid "Product variations"
+msgstr ""
+
+#: build/index.js:1
+#: build/product.js:1
+#: src/components/ProductTypeScreen.js:34
+#: src/ProductMetabox.js:79
+msgid "Text message"
+msgstr ""
+
+#: build/index.js:1
+#: build/product.js:1
+#: src/components/ProductTypeScreen.js:42
+#: src/ProductMetabox.js:98
+msgid "Phone number"
+msgstr ""
+
+#: build/index.js:1
+#: build/product.js:1
+#: src/components/ProductTypeScreen.js:42
+#: src/ProductMetabox.js:101
+msgid "Include the country code in international format (e.g. +44 20 1234 5678)."
+msgstr ""
+
+#: build/index.js:1
+#: build/product.js:1
+#: src/components/ProductTypeScreen.js:43
+#: src/ProductMetabox.js:105
+msgid "WhatsApp number"
+msgstr ""
+
+#: build/index.js:1
+#: build/product.js:1
+#: src/components/ProductTypeScreen.js:43
+#: src/ProductMetabox.js:108
+msgid "Include the country code in international format (e.g. +44 7700 900123). WhatsApp links require this exact format."
+msgstr ""
+
+#: build/index.js:1
+#: build/product.js:1
+#: src/components/ProductTypeScreen.js:44
+#: src/ProductMetabox.js:112
+msgid "Email address"
+msgstr ""
+
+#: build/index.js:1
+#: build/product.js:1
+#: src/components/ProductTypeScreen.js:44
+#: src/ProductMetabox.js:115
+msgid "Where customer enquiries are sent."
+msgstr ""
+
+#: build/index.js:1
+#: build/product.js:1
+#: src/components/ProductTypeScreen.js:45
+#: src/ProductMetabox.js:119
+msgid "Destination URL"
+msgstr ""
+
+#: build/index.js:1
+#: build/product.js:1
+#: src/components/ProductTypeScreen.js:45
+#: src/ProductMetabox.js:122
+msgid "Where customers go when they tap the Call for Price button. Must start with https://"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/ProductTypeScreen.js:104
+msgid "Enable/Disable"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/ProductTypeScreen.js:105
+msgid "Apply Call for Price to %s."
+msgstr ""
+
+#: build/index.js:1
+#: src/components/ProductTypeScreen.js:123
+msgid "Contact Method"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/ProductTypeScreen.js:124
+msgid "Choose how customers can reach you when the price is hidden."
+msgstr ""
+
+#: build/index.js:1
+#: build/product.js:1
+#: src/components/ProductTypeScreen.js:127
+#: src/ProductMetabox.js:269
+msgid "Contact channel"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/ProductTypeScreen.js:129
+msgid "How customers can request the price: phone call, WhatsApp, email, web form, or custom link."
+msgstr ""
+
+#: build/index.js:1
+#: src/components/ProductTypeScreen.js:254
+msgid "Label Text per View"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/ProductTypeScreen.js:255
+msgid "Enable or disable Call for Price per display context and customise the label HTML."
+msgstr ""
+
+#: build/index.js:1
+#: src/components/ProductTypeScreen.js:263
+msgid "This sets the HTML to output when the price is empty. Leave blank to disable."
+msgstr ""
+
+#: build/index.js:1
+#: src/components/ProductTypeScreen.js:274
+#: src/screens/PerProduct.js:53
+#: src/screens/PerProduct.js:84
+msgid "Enable"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/ProductTypeScreen.js:291
+msgid "<strong>Call for Price</strong>"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/ProductTypeScreen.js:317
+msgid "Reset %s settings to defaults? This cannot be undone."
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/ProductTypes.js:26
+msgid "Simple"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/ProductTypes.js:27
+msgid "Variable"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/ProductTypes.js:28
+msgid "Grouped"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/ProductTypes.js:29
+msgid "External"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/ProductTypes.js:42
+msgid "Configure call for price settings for each product type. "
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/ProductTypes.js:46
+msgid " to change default texts except for single product page texts."
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/ProductTypes.js:85
+msgid "Products"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/PerProduct.js:24
+#: src/screens/PerProduct.js:31
+msgid "Per Product Settings"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/PerProduct.js:26
+msgid "Override Call for Price settings on any individual product."
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/PerProduct.js:43
+msgid "How it works"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/PerProduct.js:48
+msgid "Enable per-product settings"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/PerProduct.js:48
+msgid "in the"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/PerProduct.js:51
+msgid "Open any product"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/PerProduct.js:51
+msgid "in WooCommerce → Products."
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/PerProduct.js:52
+msgid "Find the"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/PerProduct.js:52
+msgid "metabox and configure the override for that product."
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/PerProduct.js:53
+msgid "Set"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/PerProduct.js:53
+msgid "to"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/PerProduct.js:53
+msgid "No"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/PerProduct.js:53
+msgid "to inherit the global / product-type settings."
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/PerProduct.js:70
+msgid "Available per-product fields"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/PerProduct.js:73
+msgid "These fields are available in the metabox on each product edit page:"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/PerProduct.js:78
+msgid "Field"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/PerProduct.js:79
+msgid "Description"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/PerProduct.js:84
+msgid "Yes / No — override enable flag. No inherits global settings."
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/PerProduct.js:85
+msgid "Contact Channel"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/PerProduct.js:85
+msgid "Text, Phone Call, WhatsApp, Email, or Custom Link — overrides the global call type."
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/PerProduct.js:86
+msgid "Custom Value"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/PerProduct.js:86
+msgid "Phone number, WhatsApp number, email address, or URL depending on call type."
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/PerProduct.js:87
+msgid "WhatsApp Template"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/PerProduct.js:87
+msgid "Message pre-filled in WhatsApp. Supports {product_name}, {store_name}, {product_url}."
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/PerProduct.js:88
+msgid "Email Subject"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/PerProduct.js:88
+msgid "Email subject line template. Same placeholder tokens supported."
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/PerProduct.js:89
+msgid "Email Content"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/PerProduct.js:89
+msgid "Email body template. Same placeholder tokens supported."
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/PerProduct.js:90
+msgid "Text (all views)"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/PerProduct.js:90
+msgid "HTML label shown wherever the product price appears. Overrides global text."
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/PerProduct.js:91
+msgid "Request Forms"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/PerProduct.js:91
+msgid "None, Contact Form 7, Gravity Form, or Other — shows a contact form on the product page."
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/PerProduct.js:92
+msgid "Shortcode"
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/PerProduct.js:92
+msgid "Form shortcode string. Used when Request Forms is set to Other Forms."
+msgstr ""
+
+#: build/index.js:1
+#: src/screens/PerProduct.js:102
+msgid "Per-product settings are stored in a single consolidated meta key"
+msgstr ""
+
+#: build/index.js:1
+#: src/App.js:83
+msgid "Dashboard"
+msgstr ""
+
+#: build/index.js:1
+#: src/App.js:84
+msgid "General"
+msgstr ""
+
+#: build/index.js:1
+#: src/App.js:86
+msgid "Per Product"
+msgstr ""
+
+#: build/index.js:1
+#: src/App.js:100
+msgid "Configure call for price settings for your WooCommerce products"
+msgstr ""
+
+#: build/index.js:1
+#: src/App.js:147
+msgid "Need support?"
+msgstr ""
+
+#: build/index.js:1
+#: src/App.js:150
+msgid "We're always happy to help you."
+msgstr ""
+
+#: build/index.js:1
+#: src/App.js:154
+msgid "If this plugin helped you,"
+msgstr ""
+
+#: build/index.js:1
+#: src/App.js:156
+msgid "please rate it"
+msgstr ""
+
+#: build/product.js:1
+#: src/ProductMetabox.js:37
+msgid "Hi, I’m interested in this product: {product_name} from {store_name}. Could you please share the price and more details?"
+msgstr ""
+
+#: build/product.js:1
+#: src/ProductMetabox.js:39
+msgid ""
+"Hello,\n"
+"\n"
+"I’m interested in the following product listed on {store_name}:\n"
+" Product: {product_name}\n"
+" Link: {product_url}\n"
+"\n"
+"Could you please provide the price and any additional details?\n"
+"Thank you!"
+msgstr ""
+
+#: build/product.js:1
+#: src/ProductMetabox.js:88
+msgid "Contact Form 7"
+msgstr ""
+
+#: build/product.js:1
+#: src/ProductMetabox.js:89
+msgid "Gravity Forms"
+msgstr ""
+
+#: build/product.js:1
+#: src/ProductMetabox.js:90
+msgid "Other"
+msgstr ""
+
+#: build/product.js:1
+#: src/ProductMetabox.js:100
+msgid "+44 20 1234 5678"
+msgstr ""
+
+#: build/product.js:1
+#: src/ProductMetabox.js:107
+msgid "+44 7700 900123"
+msgstr ""
+
+#: build/product.js:1
+#: src/ProductMetabox.js:114
+msgid "enquiries@example.com"
+msgstr ""
+
+#: build/product.js:1
+#: src/ProductMetabox.js:121
+msgid "https://example.com/contact"
+msgstr ""
+
+#: build/product.js:1
+#: src/ProductMetabox.js:126
+msgid "Contact details"
+msgstr ""
+
+#: build/product.js:1
+#: src/ProductMetabox.js:129
+msgid "Phone number, WhatsApp number, email address, or URL — depending on the contact channel selected above."
+msgstr ""
+
+#: build/product.js:1
+#: src/ProductMetabox.js:195
+msgid "Failed to load settings. Please refresh the page."
+msgstr ""
+
+#: build/product.js:1
+#: src/ProductMetabox.js:231
+msgid "Loading…"
+msgstr ""
+
+#: build/product.js:1
+#: src/ProductMetabox.js:243
+msgid "Override for this product"
+msgstr ""
+
+#: build/product.js:1
+#: src/ProductMetabox.js:246
+msgid "Configure how Call for Price behaves for this product only."
+msgstr ""
+
+#: build/product.js:1
+#: src/ProductMetabox.js:252
+msgid "Override global settings"
+msgstr ""
+
+#: build/product.js:1
+#: src/ProductMetabox.js:253
+msgid "Use the settings below instead of the global / product-type settings for this product."
+msgstr ""
+
+#: build/product.js:1
+#: src/ProductMetabox.js:270
+msgid "Override the global contact channel for this product."
+msgstr ""
+
+#: build/product.js:1
+#: src/components/ProductTypeScreen.js:173
+#: src/ProductMetabox.js:310
+msgid "WhatsApp message template"
+msgstr ""
+
+#: build/product.js:1
+#: src/ProductMetabox.js:311
+#: src/ProductMetabox.js:339
+#: src/ProductMetabox.js:362
+msgid "Supports {product_name}, {store_name}, {product_url}."
+msgstr ""
+
+#: build/product.js:1
+#: src/ProductMetabox.js:323
+msgid "Hi, I'm interested in {product_name} from {store_name}. Could you please share the price?"
+msgstr ""
+
+#: build/product.js:1
+#: src/ProductMetabox.js:326
+#: src/ProductMetabox.js:353
+#: src/ProductMetabox.js:377
+msgid "Placeholders: {product_name}, {store_name}, {product_url}"
+msgstr ""
+
+#: build/product.js:1
+#: src/components/ProductTypeScreen.js:201
+#: src/ProductMetabox.js:338
+msgid "Email subject"
+msgstr ""
+
+#: build/product.js:1
+#: src/ProductMetabox.js:350
+msgid "Price enquiry for {product_name}"
+msgstr ""
+
+#: build/product.js:1
+#: src/components/ProductTypeScreen.js:225
+#: src/ProductMetabox.js:361
+msgid "Email body"
+msgstr ""
+
+#: build/product.js:1
+#: src/ProductMetabox.js:374
+msgid ""
+"Hi,\n"
+"\n"
+"I'm interested in {product_name} ({product_url}) from {store_name}. Please send me the price.\n"
+"\n"
+"Thanks"
+msgstr ""
+
+#: build/product.js:1
+#: src/ProductMetabox.js:388
+msgid "Display label"
+msgstr ""
+
+#: build/product.js:1
+#: src/ProductMetabox.js:389
+msgid "The HTML label shown wherever this product's price would normally appear."
+msgstr ""
+
+#: build/product.js:1
+#: src/ProductMetabox.js:401
+msgid "HTML supported. Keep tags simple — <strong>, <em>, <a> work best."
+msgstr ""
+
+#: build/product.js:1
+#: src/ProductMetabox.js:410
+msgid "Enquiry form"
+msgstr ""
+
+#: build/product.js:1
+#: src/ProductMetabox.js:411
+msgid "Display an enquiry form on the product page. Choose Contact Form 7, Gravity Forms, or supply your own shortcode."
+msgstr ""
+
+#: build/product.js:1
+#: src/ProductMetabox.js:431
+msgid "Custom form shortcode"
+msgstr ""
+
+#: build/product.js:1
+#: src/ProductMetabox.js:432
+msgid "Paste the shortcode for any other form plugin. Only used when Enquiry form is set to 'Other'."
+msgstr ""
+
+#: build/product.js:1
+#: src/ProductMetabox.js:445
+msgid "Example: [contact-form-7 id=\"123\" title=\"Enquiry\"]"
+msgstr ""
+
+#: src/components/MigrationNotice.js:95
+msgid "Data Migration"
+msgstr ""
+
+#. translators: %d: number of products
+#: src/components/MigrationNotice.js:101
+msgid "%d product needs to be migrated to the new consolidated format. This runs in the background and does not affect your store. Original data is never deleted."
+msgid_plural "%d products need to be migrated to the new consolidated format. This runs in the background and does not affect your store. Original data is never deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/components/MigrationNotice.js:114
+msgid "Migration in progress…"
+msgstr ""
+
+#: src/components/MigrationNotice.js:114
+msgid "complete"
+msgstr ""
+
+#. translators: %d: number of products
+#: src/components/MigrationNotice.js:120
+msgid "%d product failed — check WooCommerce logs."
+msgid_plural "%d products failed — check WooCommerce logs."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %d: number of products
+#: src/components/MigrationNotice.js:136
+msgid "Migration complete. All %d products have been migrated successfully."
+msgstr ""
+
+#. translators: 1: error count, 2: migrated count, 3: total count
+#: src/components/MigrationNotice.js:145
+msgid "Migration completed with %1$d error(s). %2$d of %3$d products migrated. Check"
+msgstr ""
+
+#: src/components/MigrationNotice.js:153
+msgid "WooCommerce → Status → Logs (channel: cfp-migration)"
+msgstr ""
+
+#: src/components/MigrationNotice.js:155
+msgid "for details. Failed products retain their original meta and continue to work."
+msgstr ""
+
+#: src/components/MigrationNotice.js:169
+msgid "Starting…"
+msgstr ""
+
+#: src/components/MigrationNotice.js:169
+msgid "Start Background Migration"
+msgstr ""
+
+#: src/components/ProductTypeScreen.js:175
+msgid "Default message pre-filled when a customer taps the WhatsApp button. Use the placeholders to insert dynamic values."
+msgstr ""
+
+#: src/components/ProductTypeScreen.js:190
+#: src/components/ProductTypeScreen.js:217
+#: src/components/ProductTypeScreen.js:242
+msgid "Insert placeholder:"
+msgstr ""
+
+#: src/components/ProductTypeScreen.js:203
+msgid "Pre-filled subject for the enquiry email. Use the placeholders below to insert dynamic values."
+msgstr ""
+
+#: src/components/ProductTypeScreen.js:227
+msgid "Pre-filled body for the enquiry email. Customers can edit this before sending."
+msgstr ""
+
+#: src/screens/External.js:11
+msgid "External Products"
+msgstr ""
+
+#: src/screens/Grouped.js:11
+msgid "Grouped Products"
+msgstr ""
+
+#: src/screens/Simple.js:11
+msgid "Simple Products"
+msgstr ""
+
+#: src/screens/Variable.js:11
+msgid "Variable Products"
+msgstr ""

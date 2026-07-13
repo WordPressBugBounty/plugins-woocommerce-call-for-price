@@ -2,8 +2,8 @@
 Contributors: tychesoftwares
 Tags: woocommerce, call for price, request a quote
 Requires at least: 4.4
-Tested up to: 6.9.4
-Stable tag: 4.3.0
+Tested up to: 7.0
+Stable tag: 4.4.0
 Requires PHP: 7.4
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -233,6 +233,14 @@ This plugin communicates with our tracking server to send usage data only if the
 Yes, in "WooCommerce > Settings > Call for Price" you can set if you want text to be shown on single product page, products archive page, related products and/or home page.
 
 == Changelog ==
+
+= 4.4.0 - 13/07/2026 =
+* New – React-based admin interface for General and Product Types pages.
+* Dev – Introduced a REST API layer (cfp-pro/v1) for plugin settings, product meta, migration, and license operations.
+* Dev – Consolidated settings storage from individual alg_wc_call_for_price_* options into cfp_pro_settings JSON object.
+* Update – Compatibility with WordPress 7.0.
+* Update – Compatibility with WooCommerce 10.9.4.
+
 = 4.3.0 - 23/04/2026 =
 * Fix - Security vulnerability where unsanitized textarea input could lead to XSS on the frontend.
 

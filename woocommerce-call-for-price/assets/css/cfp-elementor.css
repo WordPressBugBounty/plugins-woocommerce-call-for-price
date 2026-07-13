@@ -1,0 +1,13 @@
+.elementor-widget.elementor-widget-wc-add-to-cart {
+	display: none;
+}
+.alg-contact-info-input {
+	width: 350px !important;
+	max-width: 100%;
+}
+.alg-contact-desc {
+	display: block;
+	margin-top: 5px;
+	font-size: 12px;
+	color: #666;
+}
