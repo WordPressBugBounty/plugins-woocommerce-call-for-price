@@ -12,174 +12,133 @@ Allow customers to "Request a quote" or "Call for price" for WooCommerce product
 
 == Description ==
 
-> ###🚀&nbsp;&nbsp;New Launch: Flexi BOGO for WooCommerce
->
-> The only BOGO plugin with a revenue tracking feature. **Now, at an attractive introductory price**. [Check out our new plugin here](https://www.tychesoftwares.com/products/woocommerce-flexi-bogo-plugin/?utm_source=wprepo&utm_medium=pluginpagetop&utm_campaign=CallForPrice).
+Not every WooCommerce product can have a fixed price. Some products require a quotation, others depend on customer requirements, while prices for certain items change too often to display publicly.
 
-**Call for Price for WooCommerce** lets you hide product prices and display a custom **“Call for Price”** label instead. This helps you decide when prices should be visible and when customers should contact you before purchasing.
+**Call for Price for WooCommerce** lets you hide product prices and replace them with a custom "Call for Price" message, encouraging customers to contact you before purchasing. You can automatically show the label for products without a price or apply it to selected products, categories, price ranges, or unavailable products, while optionally hiding the Add to Cart or Read More buttons.
 
-It’s useful for stores that sell custom products, wholesale items, negotiable-price goods, or products whose prices depend on availability or requirements.
+It's well suited for wholesale and B2B stores, custom products, quotation-based businesses, catalog-only stores, and any WooCommerce store that prefers customer inquiries before orders.
 
----
+= Key Features =
 
-### Key Features
+### Hide Product Prices and Encourage Customer Inquiries
+Replace product prices with a custom Call for Price message whenever customers need to contact you before purchasing. Instead of encouraging immediate checkout, you can invite shoppers to request a quote or discuss their requirements first.
 
-With this plugin, you can:
+The Lite version allows you to:
+* Automatically display Call for Price when a product has no price.
+* Hide or replace the Add to Cart and Read More buttons.
+* Continue displaying stock availability even when prices are hidden.
 
-- Automatically show **“Call for Price”** when a product price is left empty  
-- Replace or hide the **Add to Cart / Read more** button  
-- Display stock status even when prices are hidden  
-- Apply Call for Price rules without editing your theme or code  
+This is especially useful for wholesale pricing, custom-built products, made-to-order items, negotiated pricing, and products whose prices change frequently.
 
-This makes it easy to manage inquiry-based products without disrupting your existing WooCommerce setup.
+### Show Call for Price Only for Selected Products
+Not every product needs the same pricing strategy. The plugin gives you several ways to decide where Call for Price appears without affecting your entire catalog.
 
----
+You can:
+* Automatically display Call for Price for products without a price.
+* Force Call for Price for every product in your store.
+* Apply Call for Price to products within a specific price range.
+* Show Call for Price for Out of Stock or Backorder products.
+* Apply rules to selected product categories or product tags.
 
-### Supported product types
+This flexibility allows you to hide prices only where customer interaction is needed while keeping the rest of your catalog available for online purchases.
 
-Call for Price for WooCommerce works with all standard WooCommerce product types:
+### Works with WooCommerce Product Types
+Call for Price works with the standard WooCommerce product types, including:
+* Simple products
+* Variable products and individual variations
+* Grouped products
+* External (Affiliate) products
 
-- Simple products  
-- Variable products and individual variations  
-- Grouped products  
-- External (affiliate) products  
+This helps you maintain a consistent shopping experience across your store without additional customization.
 
----
+### Customize the Call for Price Display
+Choose how Call for Price appears throughout your store.
 
-### Where “Call for Price” is displayed
+You can:
+* Change the default Call for Price text.
+* Hide the Add to Cart button.
+* Hide the Read More button where applicable.
+* Hide Sale badges for Call for Price products.
+* Hide disabled Add to Cart buttons for unavailable variations.
+* Continue displaying stock status when prices are hidden.
 
-You can control where the Call for Price label appears across your store, including:
+These options help create a cleaner storefront while directing customers toward contacting your business.
 
-- Single product pages  
-- Related products  
-- Shop and category pages  
-- Homepage  
-- Pages created using shortcodes  
+### Display Call for Price Across Your Store
+Your Call for Price message can be displayed consistently wherever customers browse your products, including:
+* Single product pages
+* Shop page
+* Category and archive pages
+* Related products
+* Products displayed using WooCommerce shortcodes
+* Homepage product sections
 
----
+Customers see the same pricing message regardless of how they discover a product.
 
-### Flexible rules to apply “Call for Price”
+= Common Use Cases =
 
-By default, the plugin shows Call for Price only for products without a price.
+Call for Price for WooCommerce is useful whenever product prices need to be discussed before an order is placed. Common examples include:
+* Wholesale and B2B stores that provide bulk pricing only after customer inquiries.
+* Manufacturers selling made-to-order or customized products.
+* Furniture, machinery, industrial equipment, or luxury goods where prices are negotiated.
+* Businesses with frequently changing supplier costs that cannot display fixed prices.
+* Stores that continue accepting inquiries for Out of Stock or Backorder products.
+* Catalog-only WooCommerce stores that showcase products without allowing direct online purchases.
 
-You can also force it to appear using the following rules:
+= Documentation & Support =
 
-#### Apply to all products
+Need help getting started?
+* Visit the [WordPress support forums](https://wordpress.org/support/plugin/woocommerce-call-for-price/)
+* Check the [documentation](https://www.tychesoftwares.com/docs/woocommerce-call-for-price/) for common answers
+* Try the [live demo](https://app.instawp.io/launch?d=v1&t=call-for-price-for-woocommerce) to see how the plugin works on the storefront.
 
-Show “Call for Price” for every product in your store, regardless of price or stock status. This is ideal for wholesale, B2B, or inquiry-only stores.
+If the plugin helps your business, consider leaving a ⭐⭐⭐⭐⭐ review. Your feedback helps other WooCommerce merchants discover the plugin.
 
-#### Apply only to unavailable products
+= Looking for More Advanced Features? =
 
-Automatically display “Call for Price” for products that cannot be purchased, such as:
+If you need greater control over how Call for Price works, [Call for Price for WooCommerce Pro](https://www.tychesoftwares.com/products/woocommerce-call-for-price-plugin/) adds product-level settings, user role restrictions, custom messages for individual product variations, direct contact options including Phone, WhatsApp, Email and Custom URLs, contact form integrations, and additional display controls.
 
-- Out-of-stock products  
-- Products on backorder  
+See the complete Lite vs Pro comparison: [https://www.tychesoftwares.com/differences-between-pro-and-lite-versions-of-call-for-price-for-woocommerce-plugin/](https://www.tychesoftwares.com/differences-between-pro-and-lite-versions-of-call-for-price-for-woocommerce-plugin/)
 
-In-stock products continue to work normally.
+= About Tyche Softwares =
 
-#### Apply based on product rules
+Call for Price for WooCommerce is developed and maintained by Tyche Softwares, creators of WooCommerce extensions since 2012.
 
-You can also apply Call for Price selectively:
+Our plugins help WooCommerce merchants manage pricing, deliveries, bookings, checkout customization, abandoned carts, and other day-to-day store operations. We actively maintain our plugins to keep them compatible with the latest versions of WooCommerce and WordPress.
 
-- By product categories or tags  
-- By product price range  
+= Explore More WooCommerce Plugins =
 
----
-
-### Button and display options
-
-The plugin gives you control over how Call for Price appears on the frontend:
-
-- Change the default button text  
-- Hide the Add to Cart or Read More button  
-- Hide sale badges for Call for Price products  
-- Hide disabled Add to Cart buttons for variations  
-
-These options help keep your frontend clean and consistent.
-
----
-
-### When you might need the Pro version
-
-The Pro version includes all Lite features and adds the following capabilities:
-
-- Configure Call for Price individually for each product using a dedicated meta box  
-- Enable Call for Price for products with non-zero prices  
-- Apply Call for Price settings based on specific user roles  
-- Set custom Call for Price text for individual product variations  
-- Integrate with popular contact form plugins  
-
-You can also control where the Call for Price text is displayed, including:
-
-- Related Products section  
-- Products displayed via shortcodes  
-- Homepage  
-- Shop and archive pages  
-
-Additionally, you can define how customers contact you when “Call for Price” is shown:
-
-- Phone call link  
-- WhatsApp link  
-- Email link  
-- Custom URL  
-
-The Pro version is best suited for larger stores or stores with complex pricing rules.
-
-👉 **Learn more about [Call for Price for WooCommerce Pro](https://www.tychesoftwares.com/products/woocommerce-call-for-price-plugin/)**
-
----
-
-### Need help?
-
-If you have questions or need assistance:
-
-- Visit the **[support forum](https://wordpress.org/support/plugin/woocommerce-call-for-price/)**
-- **[View documentation](https://www.tychesoftwares.com/docs/woocommerce-call-for-price/)**
-
----
-
-### Feedback
-
-We are open to your suggestions and feedback. Thank you for using or trying out one of our plugins!
-
-If you find the plugin useful, a ⭐⭐⭐⭐⭐ rating is always appreciated — it helps other store owners discover the plugin.
-
-
-### Related Plugins
+Tyche Softwares also develops plugins for abandoned cart recovery, order delivery scheduling, bookings, invoices and packing slips, custom order numbers, product input fields, BOGO offers, payment gateway fees, call for price, role-based pricing, currency management, and other WooCommerce enhancements.
 
 **Some of our Pro plugins:**
 
-1. **[Flexi BOGO for WooCommerce](https://www.tychesoftwares.com/products/woocommerce-flexi-bogo-plugin/?utm_source=wprepo&utm_medium=link&utm_campaign=CallForPrice "Flexi BOGO for WooCommerce")**
+1. **[Flexi BOGO for WooCommerce](https://www.tychesoftwares.com/products/woocommerce-flexi-bogo-plugin/?utm_source=wprepo&utm_medium=link&utm_campaign=WCDeliveryNotes "Flexi BOGO for WooCommerce")**
 
-1. **[Abandoned Cart Pro for WooCommerce](https://www.tychesoftwares.com/store/premium-plugins/woocommerce-abandoned-cart-pro/?utm_source=wprepo&utm_medium=link&utm_campaign=CallForPrice "Abandoned Cart Pro for WooCommerce")**
+2. **[Abandoned Cart Pro for WooCommerce](https://www.tychesoftwares.com/products/woocommerce-abandoned-cart-pro-plugin/?utm_source=wprepo&utm_medium=link&utm_campaign=WCDeliveryNotes "Abandoned Cart Pro for WooCommerce")**
 
-2. **[Booking & Appointment Plugin for WooCommerce](https://www.tychesoftwares.com/store/premium-plugins/woocommerce-booking-plugin/?utm_source=wprepo&utm_medium=link&utm_campaign=CallForPrice "Booking & Appointment Plugin for WooCommerce")**
+3. **[Booking & Appointment Plugin for WooCommerce](https://www.tychesoftwares.com/products/woocommerce-booking-and-appointment-plugin/?utm_source=wprepo&utm_medium=link&utm_campaign=WCDeliveryNotes "Booking & Appointment Plugin for WooCommerce")**
 
-3. **[Order Delivery Date Pro for WooCommerce](https://www.tychesoftwares.com/store/premium-plugins/order-delivery-date-for-woocommerce-pro-21/?utm_source=wprepo&utm_medium=link&utm_campaign=CallForPrice "Order Delivery Date Pro for WooCommerce")**
+4. **[Order Delivery Date Pro for WooCommerce](https://www.tychesoftwares.com/products/woocommerce-order-delivery-date-pro-plugin/?utm_source=wprepo&utm_medium=link&utm_campaign=WCDeliveryNotes "Order Delivery Date Pro for WooCommerce")**
 
-4. **[Product Delivery Date Pro for WooCommerce](https://www.tychesoftwares.com/store/premium-plugins/product-delivery-date-pro-for-woocommerce/?utm_source=wprepo&utm_medium=link&utm_campaign=CallForPrice "Product Delivery Date Pro for WooCommerce")**
+5. **[Product Delivery Date Pro for WooCommerce](https://www.tychesoftwares.com/products/woocommerce-product-delivery-date-pro-plugin/?utm_source=wprepo&utm_medium=link&utm_campaign=WCDeliveryNotes "Product Delivery Date Pro for WooCommerce")**
 
-5. **[Deposits For WooCommerce](https://www.tychesoftwares.com/store/premium-plugins/deposits-for-woocommerce/?utm_source=wprepo&utm_medium=link&utm_campaign=CallForPrice "Deposits For WooCommerce")**
+6. **[Deposits For WooCommerce](https://www.tychesoftwares.com/products/woocommerce-deposit-plugin/?utm_source=wprepo&utm_medium=link&utm_campaign=WCDeliveryNotes "Deposits For WooCommerce")**
 
-6. **[Payment Gateway Based Fees and Discounts for WooCommerce - Pro](https://www.tychesoftwares.com/store/premium-plugins/payment-gateway-based-fees-and-discounts-for-woocommerce-plugin/?utm_source=wprepo&utm_medium=link&utm_campaign=CallForPrice "Payment Gateway Based Fees and Discounts for WooCommerce - Pro")**
+7. **[Payment Gateway Based Fees and Discounts for WooCommerce - Pro](https://www.tychesoftwares.com/products/woocommerce-payment-gateway-based-fees-and-discounts-plugin/?utm_source=wprepo&utm_medium=link&utm_campaign=WCDeliveryNotes "Payment Gateway Based Fees and Discounts for WooCommerce - Pro")**
 
-7. **[Custom Order Status for WooCommerce - Pro](https://www.tychesoftwares.com/store/premium-plugins/custom-order-status-woocommerce/?utm_source=wprepo&utm_medium=link&utm_campaign=CallForPrice "Custom Order Status for WooCommerce - Pro")**
+8. **[Custom Order Numbers for WooCommerce - Pro](https://www.tychesoftwares.com/products/woocommerce-custom-order-numbers-plugin/?utm_source=wprepo&utm_medium=link&utm_campaign=WCDeliveryNotes "Custom Order Numbers for WooCommerce - Pro")**
 
-8. **[Custom Order Numbers for WooCommerce - Pro](https://www.tychesoftwares.com/store/premium-plugins/custom-order-numbers-woocommerce/?utm_source=wprepo&utm_medium=link&utm_campaign=CallForPrice "Custom Order Numbers for WooCommerce - Pro")**
+9. **[Product Input Fields for WooCommerce - Pro](https://www.tychesoftwares.com/products/woocommerce-product-input-fields-plugin/?utm_source=wprepo&utm_medium=link&utm_campaign=WCDeliveryNotes "Product Input Fields for WooCommerce - Pro")**
 
-9. **[Product Input Fields for WooCommerce - Pro](https://www.tychesoftwares.com/store/premium-plugins/product-input-fields-for-woocommerce/?utm_source=wprepo&utm_medium=link&utm_campaign=CallForPrice "Product Input Fields for WooCommerce - Pro")**
+10. **[Price based on User Role for WooCommerce - Pro](https://www.tychesoftwares.com/products/woocommerce-price-user-role-plugin/?utm_source=wprepo&utm_medium=link&utm_campaign=WCDeliveryNotes "Price based on User Role for WooCommerce - Pro")**
 
-10. **[Price based on User Role for WooCommerce - Pro](https://www.tychesoftwares.com/store/premium-plugins/price-user-role-woocommerce/?utm_source=wprepo&utm_medium=link&utm_campaign=CallForPrice "Price based on User Role for WooCommerce - Pro")**
-
-11. **[Currency per Product for WooCommerce - Pro](https://www.tychesoftwares.com/store/premium-plugins/currency-per-product-for-woocommerce/?utm_source=wprepo&utm_medium=link&utm_campaign=CallForPrice "Currency per Product for WooCommerce - Pro")**
+11. **[Currency per Product for WooCommerce - Pro](https://www.tychesoftwares.com/products/woocommerce-currency-per-product-plugin/?utm_source=wprepo&utm_medium=link&utm_campaign=WCDeliveryNotes "Currency per Product for WooCommerce - Pro")**
 
 **Some of our other free plugins:**
 
 1. **[Abandoned Cart for WooCommerce](https://wordpress.org/plugins/woocommerce-abandoned-cart/ "Abandoned Cart for WooCommerce")**
 
 2. **[Order Delivery Date for WooCommerce - Lite](https://wordpress.org/plugins/order-delivery-date-for-woocommerce/ "Order Delivery Date for WooCommerce - Lite")**
-
-3. **[Print Invoice & Delivery Notes for WooCommerce](https://wordpress.org/plugins/woocommerce-delivery-notes/ "Print Invoice & Delivery Notes for WooCommerce")**
 
 3. **[Product Delivery Date for WooCommerce - Lite](https://wordpress.org/plugins/product-delivery-date-for-woocommerce-lite/ "Product Delivery Date for WooCommerce")**
 
@@ -195,10 +154,9 @@ If you find the plugin useful, a ⭐⭐⭐⭐⭐ rating is always appreciated �
 
 9. **[Currency per Product for WooCommerce](https://wordpress.org/plugins/currency-per-product-for-woocommerce/ "Currency per Product for WooCommerce")**
 
-
 == External Services ==
 
-This plugin communicates with our tracking server to send usage data only if the user has explicitly opted in to usage tracking. For detailed information about what is tracked, please refer to our [usage tracking documentation.](https://www.tychesoftwares.com/docs/woocommerce-print-invoice-delivery-note/print-invoice-usage-trackings/)
+This plugin communicates with our tracking server to send usage data **only** if the user has explicitly opted in to usage tracking. For detailed information about what is tracked, please refer to our [usage tracking documentation](https://www.tychesoftwares.com/docs/woocommerce-print-invoice-delivery-note/print-invoice-usage-trackings/).
 
 == Screenshots ==
 
@@ -227,6 +185,46 @@ This plugin communicates with our tracking server to send usage data only if the
 3. All empty prices will be automatically replaced with "Call for Price".
 
 == Frequently Asked Questions ==
+
+= How do I hide product prices in WooCommerce? =
+
+Install Call for Price for WooCommerce and leave the product price empty. The plugin automatically replaces the price with your custom Call for Price text.
+
+= Can I replace the Add to Cart button with Call for Price? =
+
+Yes. The plugin lets you hide or replace the Add to Cart and Read More buttons so customers are encouraged to contact you instead of purchasing directly.
+
+= Does the plugin work with variable products? =
+
+Yes. Call for Price supports Simple, Variable, Grouped, and External (Affiliate) products, including individual variations.
+
+= Can I show Call for Price only for selected products? =
+
+Yes. You can apply Call for Price based on product categories, product tags, product price ranges, or product availability.
+
+= Can I show Call for Price for Out of Stock products? =
+
+Yes. The plugin can automatically display Call for Price for Out of Stock and Backorder products while allowing products that are available for purchase to continue displaying their normal prices.
+
+= Can I create a WooCommerce catalog without prices? =
+
+Yes. Many businesses use Call for Price to create an inquiry-only or catalog-style WooCommerce store by hiding prices and purchase buttons while allowing customers to browse products and contact the store for quotations.
+
+= Can I hide prices for wholesale or B2B products? =
+
+Yes. Wholesale and B2B stores commonly use the plugin to hide prices and ask customers to request a quotation before purchasing.
+
+= Can I customize the Call for Price text? =
+
+Yes. You can replace the default text with your own message, such as Request a Quote, Contact for Pricing, or Get a Custom Price.
+
+= Can customers contact me directly from the product page? =
+
+The Lite version focuses on hiding prices and displaying the Call for Price message. The Pro version adds direct contact methods such as Phone, WhatsApp, Email, Custom URLs, and integrations with popular contact form plugins.
+
+= Will stock status still be visible when prices are hidden? =
+
+Yes. The plugin can continue displaying stock availability even when the product price has been replaced with the Call for Price message.
 
 = Can I set where "Call for Price" text should be shown? =
 
