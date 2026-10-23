@@ -14,7 +14,7 @@ Allow customers to "Request a quote" or "Call for price" for WooCommerce product
 
 Not every WooCommerce product can have a fixed price. Some products require a quotation, others depend on customer requirements, while prices for certain items change too often to display publicly.
 
-**Call for Price for WooCommerce** lets you hide product prices and replace them with a custom "Call for Price" message, encouraging customers to contact you before purchasing. You can automatically show the label for products without a price or apply it to selected products, categories, price ranges, or unavailable products, while optionally hiding the Add to Cart or Read More buttons.
+**[Call for Price for WooCommerce](https://www.tychesoftwares.com/store/premium-plugins/woocommerce-call-for-price-plugin/?utm_source=wprepo&utm_medium=topprolink&utm_campaign=CallForPrice)** lets you hide product prices and replace them with a custom "Call for Price" message, encouraging customers to contact you before purchasing. You can automatically show the label for products without a price or apply it to selected products, categories, price ranges, or unavailable products, while optionally hiding the Add to Cart or Read More buttons.
 
 It's well suited for wholesale and B2B stores, custom products, quotation-based businesses, catalog-only stores, and any WooCommerce store that prefers customer inquiries before orders.
 
@@ -96,7 +96,7 @@ If the plugin helps your business, consider leaving a ⭐⭐⭐⭐⭐ review. Yo
 
 = Looking for More Advanced Features? =
 
-If you need greater control over how Call for Price works, [Call for Price for WooCommerce Pro](https://www.tychesoftwares.com/products/woocommerce-call-for-price-plugin/) adds product-level settings, user role restrictions, custom messages for individual product variations, direct contact options including Phone, WhatsApp, Email and Custom URLs, contact form integrations, and additional display controls.
+If you need greater control over how Call for Price works, [Call for Price for WooCommerce Pro](https://www.tychesoftwares.com/store/premium-plugins/woocommerce-call-for-price-plugin/?utm_source=wprepo&utm_medium=topprolink&utm_campaign=CallForPrice) adds product-level settings, user role restrictions, custom messages for individual product variations, direct contact options including Phone, WhatsApp, Email and Custom URLs, contact form integrations, and additional display controls.
 
 See the complete Lite vs Pro comparison: [https://www.tychesoftwares.com/differences-between-pro-and-lite-versions-of-call-for-price-for-woocommerce-plugin/](https://www.tychesoftwares.com/differences-between-pro-and-lite-versions-of-call-for-price-for-woocommerce-plugin/)
 
@@ -112,27 +112,27 @@ Tyche Softwares also develops plugins for abandoned cart recovery, order deliver
 
 **Some of our Pro plugins:**
 
-1. **[Flexi BOGO for WooCommerce](https://www.tychesoftwares.com/products/woocommerce-flexi-bogo-plugin/?utm_source=wprepo&utm_medium=link&utm_campaign=WCDeliveryNotes "Flexi BOGO for WooCommerce")**
+1. **[Flexi BOGO for WooCommerce](https://www.tychesoftwares.com/products/woocommerce-flexi-bogo-plugin/?utm_source=wprepo&utm_medium=link&utm_campaign=FlexiBOGO "Flexi BOGO for WooCommerce")**
 
-2. **[Abandoned Cart Pro for WooCommerce](https://www.tychesoftwares.com/products/woocommerce-abandoned-cart-pro-plugin/?utm_source=wprepo&utm_medium=link&utm_campaign=WCDeliveryNotes "Abandoned Cart Pro for WooCommerce")**
+2. **[Abandoned Cart Pro for WooCommerce](https://www.tychesoftwares.com/store/premium-plugins/woocommerce-abandoned-cart-pro/?utm_source=wprepo&utm_medium=link&utm_campaign=AbandonedCartLite "Abandoned Cart Pro for WooCommerce")**
 
-3. **[Booking & Appointment Plugin for WooCommerce](https://www.tychesoftwares.com/products/woocommerce-booking-and-appointment-plugin/?utm_source=wprepo&utm_medium=link&utm_campaign=WCDeliveryNotes "Booking & Appointment Plugin for WooCommerce")**
+3. **[Booking & Appointment Plugin for WooCommerce](https://www.tychesoftwares.com/products/woocommerce-booking-and-appointment-plugin/?utm_source=wprepo&utm_medium=prolink&utm_campaign=BookingAppointmentLite "Booking & Appointment Plugin for WooCommerce")**
 
-4. **[Order Delivery Date Pro for WooCommerce](https://www.tychesoftwares.com/products/woocommerce-order-delivery-date-pro-plugin/?utm_source=wprepo&utm_medium=link&utm_campaign=WCDeliveryNotes "Order Delivery Date Pro for WooCommerce")**
+4. **[Product Delivery Date Pro for WooCommerce](https://www.tychesoftwares.com/products/woocommerce-product-delivery-date-pro-plugin/?utm_source=wprepo&utm_medium=topprolink&utm_campaign=ProductDeliveryDateLite "Product Delivery Date Pro for WooCommerce")**
 
-5. **[Product Delivery Date Pro for WooCommerce](https://www.tychesoftwares.com/products/woocommerce-product-delivery-date-pro-plugin/?utm_source=wprepo&utm_medium=link&utm_campaign=WCDeliveryNotes "Product Delivery Date Pro for WooCommerce")**
+5. **[Deposits For WooCommerce](https://www.tychesoftwares.com/products/woocommerce-deposit-plugin/?utm_source=wprepo&utm_medium=prolink&utm_campaign=DepositsLite "Deposits For WooCommerce")**
 
-6. **[Deposits For WooCommerce](https://www.tychesoftwares.com/products/woocommerce-deposit-plugin/?utm_source=wprepo&utm_medium=link&utm_campaign=WCDeliveryNotes "Deposits For WooCommerce")**
+6. **[Payment Gateway Based Fees and Discounts for WooCommerce - Pro](https://www.tychesoftwares.com/products/woocommerce-payment-gateway-based-fees-and-discounts-plugin/?utm_source=wprepo&utm_medium=prolink2&utm_campaign=WCPGBasedFees "Payment Gateway Based Fees and Discounts for WooCommerce - Pro")**
 
-7. **[Payment Gateway Based Fees and Discounts for WooCommerce - Pro](https://www.tychesoftwares.com/products/woocommerce-payment-gateway-based-fees-and-discounts-plugin/?utm_source=wprepo&utm_medium=link&utm_campaign=WCDeliveryNotes "Payment Gateway Based Fees and Discounts for WooCommerce - Pro")**
+7. **[Custom Order Numbers for WooCommerce - Pro](https://www.tychesoftwares.com/products/woocommerce-custom-order-numbers-plugin/?utm_source=wprepo&utm_medium=prolink&utm_campaign=CustomNumbers "Custom Order Numbers for WooCommerce - Pro")**
 
-8. **[Custom Order Numbers for WooCommerce - Pro](https://www.tychesoftwares.com/products/woocommerce-custom-order-numbers-plugin/?utm_source=wprepo&utm_medium=link&utm_campaign=WCDeliveryNotes "Custom Order Numbers for WooCommerce - Pro")**
+8. **[Product Input Fields for WooCommerce - Pro](https://www.tychesoftwares.com/products/woocommerce-product-input-fields-plugin/?utm_source=wprepo&utm_medium=topprolink&utm_campaign=ProductInputFields "Product Input Fields for WooCommerce - Pro")**
 
-9. **[Product Input Fields for WooCommerce - Pro](https://www.tychesoftwares.com/products/woocommerce-product-input-fields-plugin/?utm_source=wprepo&utm_medium=link&utm_campaign=WCDeliveryNotes "Product Input Fields for WooCommerce - Pro")**
+9. **[Call for Price for WooCommerce - Pro](https://www.tychesoftwares.com/products/woocommerce-call-for-price-plugin/?utm_source=wprepo&utm_medium=topprolink&utm_campaign=CallForPrice "Call for Price for WooCommerce - Pro")**
 
-10. **[Price based on User Role for WooCommerce - Pro](https://www.tychesoftwares.com/products/woocommerce-price-user-role-plugin/?utm_source=wprepo&utm_medium=link&utm_campaign=WCDeliveryNotes "Price based on User Role for WooCommerce - Pro")**
+10. **[Currency per Product for WooCommerce - Pro](https://www.tychesoftwares.com/products/woocommerce-currency-per-product-plugin/?utm_source=wprepo&utm_medium=topprolink&utm_campaign=CurrencyProductLite "Currency per Product for WooCommerce - Pro")**
 
-11. **[Currency per Product for WooCommerce - Pro](https://www.tychesoftwares.com/products/woocommerce-currency-per-product-plugin/?utm_source=wprepo&utm_medium=link&utm_campaign=WCDeliveryNotes "Currency per Product for WooCommerce - Pro")**
+11. **[Price based on User Role for WooCommerce - Pro](https://www.tychesoftwares.com/products/woocommerce-price-user-role-plugin/?utm_source=wprepo&utm_medium=prolink&utm_campaign=ProductPricesByUserRoles "Price based on User Role for WooCommerce - Pro")**
 
 **Some of our other free plugins:**
 
@@ -160,23 +160,15 @@ This plugin communicates with our tracking server to send usage data **only** if
 
 == Screenshots ==
 
-1. Meta box added to each product's backend.
-2. Exclude products or categories from Call for Price.
-3. Integration with form plugins such as Contact Form 7 and Gravity Forms.
-4. Show stock status for empty priced products.
-5. Stock status display with Call for Price.
-6. Call for Price forms display.
-7. User role–based Call for Price rules.
-8. Apply Call for Price by price range (method 2).
-9. Apply Call for Price by price range.
-10. Call for Price on external products.
-11. Call for Price on grouped products.
-12. Call for Price on variable products.
-13. Call for Price on simple product.
-14. Using WhatsApp as Call for Price contact option.
-15. Call type feature settings.
-16. Call for Price label display.
-17. Call for Price by product categories. 
+1. General settings.
+2. Apply Call for Price rules.
+3. Call for Price on the product page.
+4. Call for Price on the shop page.
+5. Variable product support.
+6. Category- and tag-based Call for Price configuration.
+7. Automatically enable Call for Price for products without a price.
+8. Before and after comparison of the Call for Price feature.
+9. Apply Call for Price by price range.  
 
 == Installation ==
 
